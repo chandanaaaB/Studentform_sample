@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is a description">   
+    <meta name="keywords" content="html, student form, web dev">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="samm.css"
+  <body>
+    <h1>Student Registration Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+      <br>
+      <br>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      <br>
+      <br>
+      <div>
+        <b>Gender:</b><br>
+          <input type="radio" name="gender"> Male <input type="radio" name="gender" > Female <input type="radio" name="gender" value="Others" required>Others
+    </div>
+      <br>
+      <label for="address">Address:</label>
+      <br>
+      <textarea id="address" name="address" rows="5" cols="30"></textarea>
+      <br>
+      <br>
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="">Select a course</option>
+        <option value="html">HTML</option>
+        <option value="java">Java</option>
+        <option value="php">PHP</option>
+        <option value="css">CSS</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

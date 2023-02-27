@@ -1,0 +1,90 @@
+/* Styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a5fef4;
+  }
+  
+  /* Styles for the form container */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #5cb0d7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Styles for the form headings */
+  h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Styles for the form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styles for the form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the radio buttons */
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the text area */
+  textarea {
+    resize: none;
+  }
+  
+  /* Styles for the select dropdown */
+  select {
+    height: 40px;
+  }
+  
+  /* Styles for the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+    input[type="reset"] {
+        background-color: #f90000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+      
+      input[type="reset"]:hover {
+        background-color: #f90000;
+  }
+  
